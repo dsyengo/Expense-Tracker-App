@@ -1,0 +1,26 @@
+{
+  "name": "expense-tracker-app",
+  "version": "1.0.0",
+  "description": "This is a tool that allows the user to keep track of their income and expenses",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Master Chief",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-router": "^0.0.1",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.4.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
